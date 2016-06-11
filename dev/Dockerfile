@@ -17,7 +17,7 @@ RUN cp -f $NVM_DIR/nvm.sh $NVM_DIR/nvm-tmp.sh; \
   	sh $NVM_DIR/nvm-tmp.sh; \
    	rm $NVM_DIR/nvm-tmp.sh;
 
-# update to latest npm
+# update to latest npm (get npm for free with node)
 RUN $NVM_DIR/versions/node/v$NODE_VERSION/bin/npm i npm -g
 
 ENV NODE_PATH $NVM_DIR/v$NODE_VERSION/lib/node_modules
