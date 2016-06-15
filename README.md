@@ -19,3 +19,10 @@ Creates an Ubuntu:14.04 image and installs:
 * NPM *latest*
 * NodeJS *v4.4.5*
 
+
+### mongo/Dockerfile
+
+Creates an Ubuntu:14.04 image and MongoDB Community Edition v3.2:
+
+* mongo *v3.2.*
+
